@@ -1,0 +1,17 @@
+npm install -D tailwindcss postcss autoprefixer
+npm install -D tailwindcss@3.4.17
+npx tailwindcss init -p
+
+In index.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+In tailwind.config.js
+( Modify the content part )
+
+content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}"
+  ],
